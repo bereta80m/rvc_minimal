@@ -1,0 +1,19 @@
+# Training-only dependencies for running RVC training on a GPU host (e.g., Vast.ai).
+# PyTorch is intentionally not pinned here; use the PyTorch/CUDA stack from the host template.
+
+numpy
+scipy
+scikit-learn
+faiss-cpu
+librosa
+soundfile
+numba
+ffmpeg-python
+av
+tensorboard
+tqdm
+einops
+praat-parselmouth
+pyworld
+Cython<3
+fairseq==0.12.2
